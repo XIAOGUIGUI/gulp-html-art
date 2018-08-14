@@ -1,0 +1,36 @@
+{
+  "name": "gulp-html-art",
+  "version": "1.0.0",
+  "description": "include HTML files and render templates by art-template",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XIAOGUIGUI/gulp-html-art.git"
+  },
+  "author": {
+    "name": "XIAOGUIGUI",
+    "email": "crg0118@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XIAOGUIGUI/gulp-html-art/issues"
+  },
+  "homepage": "https://github.com/XIAOGUIGUI/gulp-html-art#readme",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "gulp-util": "^3.0.7",
+    "js-beautify": "^1.6.3",
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
