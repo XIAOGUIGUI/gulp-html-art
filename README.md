@@ -15,6 +15,9 @@ gulp.task('default', function() {
 	return gulp.src('html/component/index.html')
 		.pipe(htmlArt({
 			paths: ['./html/common'],
+			formatData: function(data) {
+				 return data
+			},
 			data: {
 				useHeader: false
 			},
